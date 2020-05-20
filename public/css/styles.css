@@ -1,0 +1,56 @@
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+  color: goldenrod;
+}
+
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  color: #888;
+  border-top: 2px solid #eee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.portrait {
+  width: 250px;
+}
+
+header a {
+  color: #888;
+  font-size: 20px;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  color: #fff;
+  padding: 8px
+}
